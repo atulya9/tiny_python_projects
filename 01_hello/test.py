@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """tests for hello.py"""
 
 import os
@@ -18,7 +18,7 @@ def test_exists():
 def test_runnable():
     """Runs using python3"""
 
-    out = getoutput(f'python {prg}')
+    out = getoutput(f'python3 {prg}')
     assert out.strip() == 'Hello, World!'
 
 
